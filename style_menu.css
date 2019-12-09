@@ -61,7 +61,6 @@ nav ul ul {
     position: absolute; 
     top: 100%;
     width: 225px;
-
 }
 
 nav ul ul li {
@@ -69,6 +68,8 @@ nav ul ul li {
     border-top: 1px solid #6b727c;
     border-bottom: 1px solid #575f6a; position: relative;
     width: 100%;
+    justify-items: center;
+    align-items: center;
 }
 
 nav ul ul li a {
