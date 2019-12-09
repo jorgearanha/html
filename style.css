@@ -1,16 +1,28 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 h1 {
     font-size: 60px;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin: 0px;
 }
 
 .image {
     max-width: 100%;
     max-height: 50%;
+    height: auto;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.image.img_principal {
+    max-width: 100%;
+    max-height: 60%;
     height: auto;
     width: 100%;
     margin: 5px 0px;
@@ -30,7 +42,7 @@ h2 {
 
 .noticia_principal {
     display: flex;
-    width: 45%; 
+    width: 60%; 
     height: auto;
     flex-flow: row wrap;
     align-content: flex-start;
@@ -39,7 +51,7 @@ h2 {
 .outras_noticias {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 35%;
     height: auto;
 }
 
