@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+}
+
+body {
+    font-size: 25px;
+}
+
+.div_horizontal {
+    display: flex;
+    height: 100vh;
+    width: 90%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
