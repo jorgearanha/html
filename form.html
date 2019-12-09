@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="/example.html" method="POST">
-        <fieldset>
+        <fieldset id="dados_pessoais" name="dados_pessoais">
             <legend>Dados Pessoais</legend>
             <section class="nomes">
                 <label for="nome">Nome:</label>
@@ -54,6 +54,43 @@
                         <option value="TO">Tocantins</option>        
                     </select>
             </section>
+        </fieldset>
+        <fieldset id="dados_profissionais" name="dados_profissionais">
+            <legend>Dados profissionais</legend>
+            
+            <span>Natureza do Cargo</span>
+            <section class="cargos">
+                <input type="radio" name="cargo" id="gerencia" value="gerencia">
+                <label for="gerencia">Gerência</label>
+                <input type="radio" name="cargo" id="financeiro" value="financeiro">
+                <label for="financeiro">Financeiro</label>
+                <input type="radio" name="cargo" id="recepcao" value="recepcao">
+                <label for="recepcao">Recepção</label>
+                <input type="radio" name="cargo" id="administrativo" value="administrativo">
+                <label for="administrativo">Administrativo</label>
+                <input type="radio" name="cargo" id="juridico" value="juridico">
+                <label for="juridico">Jurídico</label>
+            </section>
+            
+            <span>Area de Interesse</span>
+            <section class="areas_interesse">
+                <input type="checkbox" name="area_interesse" id="computacao" value="computacao">
+                <label for="computacao">Computação</label>
+                <input type="checkbox" name="area_interesse" id="biologia" value="biologia">
+                <label for="biologia">Biologia</label>
+                <input type="checkbox" name="area_interesse" id="meio_ambiente" value="meio_ambiente">
+                <label for="meio_ambiente">Meio Ambiente</label>
+                <input type="checkbox" name="area_interesse" id="engenharia" value="engenharia">
+                <label for="engenharia">Engenharia</label>
+                <input type="checkbox" name="area_interesse" id="historia" value="historia">
+                <label for="historia">História</label>
+            </section>
+
+            <section class="curriculos">
+                <label for="curriculo">Mini-currículo:</label>
+                <textarea name="curriculo" id="curriculo" cols="30" rows="10"></textarea>
+            </section>
+
         </fieldset>
     </form>
 </body>
